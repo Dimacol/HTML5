@@ -89,6 +89,13 @@ a {
     font-size: 15px;
     line-height: 18px;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.button1:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);     
 }
 
 .button2 {
@@ -97,6 +104,7 @@ a {
     line-height: 18px;
     color: #AAAAAA;
     border: none;
+    cursor: pointer;
 }
 
 .logos {
@@ -113,4 +121,152 @@ a {
 .logo {
     width: 160px;
     height: 50px;
+}
+
+.heading {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 60px;
+    justify-content: space-between
+}
+
+.heading__title{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 17px; 
+}
+
+.heading__text {
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.more__link{
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    font-weight: bold;
+}
+
+.more__link:hover {
+    color: #144de9;
+}
+
+.toping{
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px; 
+}
+
+.toping__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 55px;
+}
+
+.toping__title {
+    font-size: 45px;
+    line-height: 53px;
+    color: #000000;
+}
+
+.toping__text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.skill {
+    background: #FAFAFA;
+    padding-top: 92px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+    justify-content: space-between
+}
+
+.skill__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 55px;
+}
+
+.skill__content {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+
+.skill__items {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.skill__item {
+    background: #FFFFFF;
+}
+
+.skill__item:hover {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.skill__info {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 30px 50px 30px;
+}
+
+.skill__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.skill__text {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-top: 22px;
+    margin-bottom: 39px;
+}
+
+.skill__button {
+    width: 150px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.skill__button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Добавил анимацию курсор при нажатии */
 }
