@@ -3,20 +3,114 @@
     margin: 0;
 }
 
-.top {
-    padding-bottom: 96px;
+body {
+    font-family: 'Raleway', sans-serif;
 }
+
+.center {
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
-    padding-top: 40px;
-    padding-bottom: 84px;
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    gap: 500px;
 }
+
+.header__nav {
+    width: 533px;
+    display: flex;
+    gap: 20px;
+}
+
+.header__link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.header__link:hover {
+    color: #3722f2;
+}
+
+.top {
+    padding-bottom: 163px;
+}
+
+.top__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
 .top__content {
-    margin-bottom: 162px;
+    width: 522px;
 }
+
 .title {
-margin-bottom: 17px;
+    margin-bottom: 17px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
-.top__buttons {
-    margin-top: 52px;
-    margin-bottom: 16px;
+
+.text {
+    margin-bottom: 17px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+
+}
+
+.top__button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px;
+}
+
+.button1 {
+    width: 140px;
+    height: 50px;
+
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.button2 {
+    background: none;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    border: none;
+}
+
+.logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Когда ставлю  gap: 48px;  логотипы футера в одну линию не стоят*/
+}
+
+.logo {
+    width: 160px;
+    height: 50px;
 }
